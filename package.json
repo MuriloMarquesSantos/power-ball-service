@@ -1,19 +1,27 @@
 {
   "name": "interview",
   "version": "1.0.0",
-  "description": "A minimal template project for JavaScript Interviews",
-  "main": "index.js",
-  "engines": {
-    "node": ">=10.9"
-  },
-  "repository": "https://github.com/neocard-ca/interview.git",
+  "description": "A minimal template project for JavaScript interviews",
   "author": "Kris Read",
   "license": "UNLICENSED",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neofinancial/interview.git"
+  },
+  "engines": {
+    "node": "^10.9.0"
+  },
   "scripts": {
     "start": "node index.js",
-    "lint": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/jest"
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "eslint": "^5.15.1",
@@ -22,11 +30,5 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-unicorn": "^7.1.0",
     "jest": "^24.5.0"
-  },
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "jest": {
-    "verbose": true
   }
 }
