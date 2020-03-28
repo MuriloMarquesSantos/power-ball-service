@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: PR Lint GitHub Action
-        uses: pqt/action-prlint@master
+        uses: neofinancial/action-prlint@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ticketPrefix: "CH-"
