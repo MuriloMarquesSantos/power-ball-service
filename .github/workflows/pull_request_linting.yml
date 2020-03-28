@@ -21,6 +21,8 @@ jobs:
         uses: pqt/action-prlint@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ticketPrefix: "CH-"
+          titleFormat: "%prefix%%id%: %title%"
           titleRegex: '^(CH)(-?)(\d{3,})'
           bodyRegex: '(CH)(-?)(\d{3,})'
           bodyURLRegex: 'http(s?):\/\/(app.clubhouse.io)(\/neofinancial)(\/story)\/\d+'
