@@ -16,7 +16,7 @@ The Powerball winning numbers change on each "draw date". In order to determine 
 
 To calculate the prize, consult the prize matrix image below:
 
-![Powerball Rules](https://raw.githubusercontent.com/neofinancial/interview/master/powerball_rules.png)
+![Powerball Rules](powerball_rules.png?raw=true)
 
 ## Exercise Rules
 
@@ -37,13 +37,13 @@ To checkout the source, you should clone it from GitHub! Don't fork it or other 
 This app requires:
 
 - A Linux or MacOS Environment _(Windows Untested)_
-- Node.js LTS 10.9+
+- Node.js LTS 14+
 
 If you do not have node.js installed:
 
 1. [Install NVM](https://github.com/creationix/nvm#installation)
-2. [Install Node 10](https://github.com/creationix/nvm#usage) `nvm install 10.15.3`
-3. [Switch to Node 10](https://github.com/creationix/nvm#usage) `nvm use 10.15.3`
+2. [Install Node 14](https://github.com/creationix/nvm#usage) `nvm install 14`
+3. [Switch to Node 14](https://github.com/creationix/nvm#usage) `nvm use 14`
 
 ## Starting the App
 

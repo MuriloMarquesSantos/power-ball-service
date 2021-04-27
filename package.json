@@ -10,7 +10,7 @@
     "url": "https://github.com/neofinancial/interview.git"
   },
   "engines": {
-    "node": "^10.9.0"
+    "node": "^14"
   },
   "scripts": {
     "start": "node index.js",
@@ -24,11 +24,11 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "eslint": "^5.15.1",
+    "eslint": "^7.16.0",
     "eslint-plugin-jest": "^22.3.2",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-unicorn": "^7.1.0",
-    "jest": "^24.5.0"
+    "jest": "^26.6.3"
   }
 }
