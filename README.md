@@ -16,7 +16,7 @@ The Powerball winning numbers change on each "draw date". In order to determine 
 
 To calculate the prize, consult the prize matrix image below:
 
-![Powerball Rules](https://raw.githubusercontent.com/neocard-ca/interview/master/powerball_rules.png)
+![Powerball Rules](https://raw.githubusercontent.com/neofinancial/interview/master/powerball_rules.png)
 
 ## Exercise Rules
 
