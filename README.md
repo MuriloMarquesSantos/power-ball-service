@@ -96,8 +96,9 @@ You should see output like this:
 
 Make your changes on a branch and then make a PR back to your private repo. That makes it easy for us to review your changes in one place. When you're ready for us to review your solution give these users access to your repo:
 
-- [krisread](https://github.com/krisread)
 - [iansu](https://github.com/iansu)
+
+Please also send an email to engineering@neofinancial.com to let us know that your submission is ready for review, and include any notes or instructions.  
 
 ## Contact
 
