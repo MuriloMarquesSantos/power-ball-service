@@ -30,7 +30,7 @@ export default class PowerBallService {
       nyGovClientResponse === undefined ||
       nyGovClientResponse.winning_numbers.length === 0
     ) {
-      throw new AppError("No data available for that date", 400);
+      throw new AppError("No data available for that date", 404);
     }
 
     const finalPrize = this.calculateFinalPrize(

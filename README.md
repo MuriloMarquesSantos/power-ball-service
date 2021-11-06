@@ -5,7 +5,7 @@ Welcome to my solution for this challenge. I will describe below my technical de
 ## Tasks
 
 - [x] Fix unit test
-- [ ] Include Debug config
+- [x] Include Debug config
 - [x] Excluding js files from testing and preventing unknown errors
 - [ ] Enhance error handling
 - [x] Increase test coverage
@@ -31,6 +31,11 @@ Welcome to my solution for this challenge. I will describe below my technical de
 ## How to run
 
 - The way to run is basically the same. If you wish to run in a dev environment with Typescript, you can run the command ```npm run dev:server``` as per package.json file.
+
+## Debbuging
+
+- VSCode debugging is available and configured in .vscode folder. 
+- You may also debug the tests if you want to. You may change the selected folder with the ```--testPathPattern=<folder|pattern>``` property.
 
 ## API and Documentation
 
