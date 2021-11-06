@@ -7,7 +7,6 @@ Welcome to my solution for this challenge. I will describe below my technical de
 - [x] Fix unit test
 - [x] Include Debug config
 - [x] Excluding js files from testing and preventing unknown errors
-- [ ] Enhance error handling
 - [x] Increase test coverage
 - [x] Clean code
 
