@@ -1,7 +1,7 @@
 import routes from "../../../app/routes";
 
-const request = require("supertest");
-const express = require("express");
+import request from "supertest";
+import express from "express";
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
@@ -16,10 +16,8 @@ test("index route works", (done) => {
 });
 
 test("Not found works", (done) => {
-    request(app)
-      .get("/not-found")
-      .expect(404, done);
-  });
+  request(app).get("/not-found").expect(404, done);
+});
 
 it("Should throw error with invalid request", (done) => {
   request(app)
