@@ -13,7 +13,9 @@
     "node": "^14"
   },
   "scripts": {
-    "start": "node index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev:server": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules index.ts",
     "lint": "eslint .",
     "test": "jest"
   },
@@ -21,14 +23,21 @@
     "verbose": true
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
     "eslint": "^7.16.0",
     "eslint-plugin-jest": "^22.3.2",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-unicorn": "^7.1.0",
-    "jest": "^26.6.3"
+    "jest": "^27",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.0.7",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
   }
 }

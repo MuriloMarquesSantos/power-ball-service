@@ -1,3 +1,38 @@
+## Introduction
+
+Welcome to my solution for this challenge. I will describe below my technical decisions and how to run the application. If you have any additional question, feel free to ask me.
+
+## Tasks
+
+- [x] Fix unit test
+- [ ] Include Debug config
+
+## Technologies used
+
+- Typescript (To make the code more organized and easy to navigate)
+- Jest and Supertest
+- Axios
+- TS Node Dev (For development environment)
+
+## Architectural decisions and possible enhancements
+
+- I tried to isolate the responsability of the modules following the SOLID principles as much as possible;
+
+- I used dependency injection, specificaly in the service layer. This prevents errors and helps, makes the class cohesive and makes testing easier.
+
+- Middlewares are being used to validate the API input. Due to the time constraint I decided to do it manually, but using a 3rd party library could be an alternative.
+
+- I've create as much tests as possible. The test coverage could be enhanced on a next version.
+
+## How to run
+
+- The way to run is basically the same. If you wish to run in a dev environment with Typescript, you can run the command ```npm run dev:server``` as per package.json file.
+
+## API and Documentation
+
+You may find the documentation of the API here ```https://documenter.getpostman.com/view/4694407/UV5f7tbA```
+
+
 # Interview Exercise
 
 Your goal is to extend the functionality of this Node.js service.
@@ -27,10 +62,6 @@ To calculate the prize, consult the prize matrix image below:
 - Follow modern JavaScript and Node best practices and conventions to the best of your ability.
 - You are free to add packages, tools or improvements to your project as you see fit.
 - We expect you to write the kind of feature you would put into production, including tests and documentation as you see fit.
-
-## Download
-
-To checkout the source, you should clone it from GitHub! Don't fork it or other people will be able to see your solution. Instead clone it and then push it to your own private GitHub repo.
 
 ## Installation
 
@@ -94,11 +125,7 @@ You should see output like this:
 
 ## Submission
 
-Make your changes on a branch and then make a PR back to your private repo. That makes it easy for us to review your changes in one place. When you're ready for us to review your solution give these users access to your repo:
-
-- [iansu](https://github.com/iansu)
-
-Please also send an email to engineering@neofinancial.com to let us know that your submission is ready for review, and include any notes or instructions.  
+Make your changes and then create a zip file to send back to us. Make sure you don't include `node_modules` in the zip file. Send your solution back to the person who emailed you the original problem.
 
 ## Contact
 
