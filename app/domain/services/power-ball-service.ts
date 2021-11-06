@@ -67,13 +67,13 @@ export default class PowerBallService {
     const powerBallTicketNumber = ticketPick.ticketNumbers[5];
     const wonPowerBall = power_ball === powerBallTicketNumber;
     this.removePowerBall(ticketPick);
-    const wonNumbers = ticketPick.ticketNumbers.filter((ticketNumber) =>
+    const userWinningNumbers = ticketPick.ticketNumbers.filter((ticketNumber) =>
       winningNumbers.includes(ticketNumber)
     );
 
     const prize = this.prizeRepository.getTicketPrize(
       wonPowerBall,
-      wonNumbers.length
+      userWinningNumbers.length
     );
 
     ticketPick.prize = prize;

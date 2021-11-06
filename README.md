@@ -8,8 +8,8 @@ Welcome to my solution for this challenge. I will describe below my technical de
 - [ ] Include Debug config
 - [x] Excluding js files from testing and preventing unknown errors
 - [ ] Enhance error handling
-- [ ] Increase test coverage
-- [ ] Clean code
+- [x] Increase test coverage
+- [x] Clean code
 
 ## Technologies used
 
