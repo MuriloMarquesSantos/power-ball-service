@@ -6,6 +6,10 @@ Welcome to my solution for this challenge. I will describe below my technical de
 
 - [x] Fix unit test
 - [ ] Include Debug config
+- [x] Excluding js files from testing and preventing unknown errors
+- [ ] Enhance error handling
+- [ ] Increase test coverage
+- [ ] Clean code
 
 ## Technologies used
 

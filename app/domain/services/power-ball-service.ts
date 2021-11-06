@@ -52,8 +52,8 @@ export default class PowerBallService {
       .map((ticketPick) =>
         this.getTicketLotteryPrize(
           ticketPick,
-          nyGovClientResponse!!.winning_numbers,
-          nyGovClientResponse!!.power_ball
+          nyGovClientResponse.winning_numbers,
+          nyGovClientResponse.power_ball
         )
       )
       .reduce((accumulator, prize) => accumulator + prize, 0);
